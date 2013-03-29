@@ -1,10 +1,10 @@
 function doSomeThing(obj){
 		var jobj = $(obj);
 		var url = jobj.attr('href');
-		alert(url)
+//		alert(url)
 		//调用后台操作
 		$.get(url, function(data){
- 			alert(data)
+// 			alert(data)
 			if(isNull(data.result)){
 				data = eval('(' + data + ')');
 			}
