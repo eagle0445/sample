@@ -13,7 +13,7 @@ body{background: #E2E9E6;}
 </head>
 <body>
 <hr>
-<span style="color:red">${requestScope.opmsg} ${param.opmsg}</span><br>
+<span style="color:red">${requestScope.opmsg} ${param.opmsg}</span><br><br>
 <a href="memo/doSomeThing_c.spr">没权限错误提示: 传统html方式</a><br>
 <a href="memo/doSomeThing_d.spr">操作成功: 传统html方式</a><br>
 <a href="memo/doSomeThing_e.spr" onclick="return doSomeThing(this)">没权限错误提示: ajax方式:</a><br>

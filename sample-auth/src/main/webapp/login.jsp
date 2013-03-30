@@ -1,3 +1,4 @@
+<%@page import="java.net.URLDecoder"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"
 %><%@include file="/top.jsp" %>
 <html>
@@ -28,7 +29,11 @@ body{background: #E2E9E6;}
  </table>
 </form>
 <hr>
-<span style="color:red">${requestScope.opmsg} ${param.opmsg}</span><br>
+<span style="color:red">${requestScope.opmsg} ${param.opmsg}
+<% String opmsg = request.getParameter("opmsg");
+if(opmsg != null){
+opmsg = URLDecoder.decode(opmsg, "utf-8");
+out.println(opmsg);}%></span><br>
 <a href="memo/doSomeThing_a.spr">未登录错误提示: 传统html方式</a>
 <br>
 <a href="memo/doSomeThing_b.spr" onclick="return doSomeThing(this)">未登录错误提示: ajax方式:</a>

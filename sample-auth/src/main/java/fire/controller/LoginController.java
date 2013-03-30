@@ -31,6 +31,7 @@ public class LoginController {
 		session.setAttribute(SessionHelper.UserHandler, user);
 		mav.setViewName("redirect:/mg/userIndex.jsp");
 		mav.addObject("opmsg", "登录成功!");
+		logger.info("登录成功!");
 		return mav;
 	}
 	
