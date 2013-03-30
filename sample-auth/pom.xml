@@ -18,6 +18,7 @@
 			<artifactId>servlet-api</artifactId>
 			<version>2.5</version>
 			<classifier>sources</classifier>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
@@ -30,6 +31,7 @@
 			<artifactId>junit</artifactId>
 			<version>4.11</version>
 			<classifier>sources</classifier>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -41,6 +43,7 @@
 			<artifactId>spring-context</artifactId>
 			<version>3.2.2.RELEASE</version>
 			<classifier>sources</classifier>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -52,6 +55,7 @@
 			<artifactId>spring-web</artifactId>
 			<version>3.2.2.RELEASE</version>
 			<classifier>sources</classifier>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -63,6 +67,7 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>3.2.2.RELEASE</version>
 			<classifier>sources</classifier>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -74,6 +79,7 @@
 			<artifactId>spring-tx</artifactId>
 			<version>3.2.2.RELEASE</version>
 			<classifier>sources</classifier>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -85,6 +91,7 @@
 			<artifactId>spring-orm</artifactId>
 			<version>1.2.6</version>
 			<classifier>sources</classifier>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -96,6 +103,7 @@
 			<artifactId>spring-test</artifactId>
 			<version>3.2.2.RELEASE</version>
 			<classifier>sources</classifier>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -107,6 +115,7 @@
 			<artifactId>spring-asm</artifactId>
 			<version>3.1.4.RELEASE</version>
 			<classifier>sources</classifier>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -118,6 +127,7 @@
 			<artifactId>hibernate-core</artifactId>
 			<version>4.2.0.Final</version>
 			<classifier>sources</classifier>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -129,6 +139,7 @@
 			<artifactId>hibernate-ehcache</artifactId>
 			<version>4.2.0.Final</version>
 			<classifier>sources</classifier>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>net.sf.ehcache</groupId>
@@ -140,6 +151,7 @@
 			<artifactId>ehcache-core</artifactId>
 			<version>2.6.5</version>
 			<classifier>sources</classifier>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
@@ -157,6 +169,7 @@
 			<artifactId>slf4j-api</artifactId>
 			<version>1.7.4</version>
 			<classifier>sources</classifier>
+			<scope>provided</scope>
 		</dependency>
 		<!-- <dependency> -->
 		<!-- <groupId>org.slf4j</groupId> -->
@@ -168,6 +181,7 @@
 		<!-- <artifactId>slf4j-jdk14</artifactId> -->
 		<!-- <version>1.7.4</version> -->
 		<!-- <classifier>sources</classifier> -->
+		<!-- <scope>provided</scope> -->
 		<!-- </dependency> -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -179,6 +193,7 @@
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>1.7.4</version>
 			<classifier>sources</classifier>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>log4j</groupId>
@@ -191,7 +206,10 @@
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
 			<classifier>sources</classifier>
+			<scope>provided</scope>
 		</dependency>
+
+		<!-- proxool需要自己寻找添加 -->
 		<dependency>
 			<groupId>fakepath</groupId>
 			<artifactId>proxool</artifactId>
@@ -202,6 +220,7 @@
 			<artifactId>proxool-cglib</artifactId>
 			<version>-1</version>
 		</dependency>
+
 		<dependency>
 			<groupId>commons-fileupload</groupId>
 			<artifactId>commons-fileupload</artifactId>
@@ -212,6 +231,7 @@
 			<artifactId>commons-fileupload</artifactId>
 			<version>1.2.2</version>
 			<classifier>sources</classifier>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.struts</groupId>
@@ -223,6 +243,7 @@
 			<artifactId>struts2-core</artifactId>
 			<version>2.3.12</version>
 			<classifier>sources</classifier>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>f3rd</groupId>
@@ -239,6 +260,7 @@
 			<artifactId>commons-lang</artifactId>
 			<version>2.6</version>
 			<classifier>sources</classifier>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>
@@ -250,6 +272,7 @@
 			<artifactId>jackson-core-asl</artifactId>
 			<version>1.9.12</version>
 			<classifier>sources</classifier>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>
@@ -261,6 +284,7 @@
 			<artifactId>jackson-mapper-asl</artifactId>
 			<version>1.9.12</version>
 			<classifier>sources</classifier>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>jstl</groupId>
@@ -283,26 +307,28 @@
 			<artifactId>standard</artifactId>
 			<version>1.1.2</version>
 			<classifier>sources</classifier>
+			<scope>provided</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi</artifactId>
-			<version>3.9</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi</artifactId>
-			<version>3.9</version>
-			<classifier>sources</classifier>
-		</dependency>
+		<!-- <dependency> -->
+		<!-- <groupId>org.apache.poi</groupId> -->
+		<!-- <artifactId>poi</artifactId> -->
+		<!-- <version>3.9</version> -->
+		<!-- </dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>org.apache.poi</groupId> -->
+		<!-- <artifactId>poi</artifactId> -->
+		<!-- <version>3.9</version> -->
+		<!-- <classifier>sources</classifier> -->
+		<!-- <scope>provided</scope> -->
+		<!-- </dependency> -->
 	</dependencies>
 	<build>
 		<finalName>sample-auth</finalName>
 		<plugins>
-			<plugin>
-				<groupId>org.mortbay.jetty</groupId>
-				<artifactId>jetty-maven-plugin</artifactId>
-			</plugin>
+			<!-- <plugin> -->
+			<!-- <groupId>org.mortbay.jetty</groupId> -->
+			<!-- <artifactId>jetty-maven-plugin</artifactId> -->
+			<!-- </plugin> -->
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>tomcat-maven-plugin</artifactId>
