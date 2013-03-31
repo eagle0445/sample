@@ -6,6 +6,6 @@
 使用命令 mvn tomcat:run 启动运行.   
 然后访问 http://localhost:8080/sample-auth 即可进入演示页面.
 
-技术要点说明见我的博客:
+技术要点说明见我的博客:  
 http://my.oschina.net/kingfire/blog/102760   
 http://my.oschina.net/kingfire/blog/99992
