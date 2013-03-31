@@ -210,16 +210,17 @@
 		</dependency>
 
 		<!-- proxool需要自己寻找添加 -->
-		<dependency>
-			<groupId>fakepath</groupId>
-			<artifactId>proxool</artifactId>
-			<version>0.9.1</version>
-		</dependency>
-		<dependency>
-			<groupId>f3rd</groupId>
-			<artifactId>proxool-cglib</artifactId>
-			<version>-1</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>fakepath</groupId> -->
+<!-- 			<artifactId>proxool</artifactId> -->
+<!-- 			<version>0.9.1</version> -->
+<!-- 		</dependency> -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>f3rd</groupId> -->
+<!-- 			<artifactId>proxool-cglib</artifactId> -->
+<!-- 			<version>-1</version> -->
+<!-- 		</dependency> -->
+<!-- end proxool需要自己寻找添加 -->
 
 		<dependency>
 			<groupId>commons-fileupload</groupId>
